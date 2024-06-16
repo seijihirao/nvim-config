@@ -28,4 +28,4 @@ map("n", "<leader>f", vim.lsp.buf.format, { desc = "Formats file" })
 -- Reloads nvim file
 map("n", "<leader><leader>", function()
   vim.cmd("so")
-end, { desc = "Reloads nvim file"})
+end, { desc = "Reloads nvim file" })
