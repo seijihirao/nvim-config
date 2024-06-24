@@ -15,6 +15,7 @@ return {
 		opts = {
 			ensure_installed = {
 				"bash",
+				"helm",
 				"html",
 				"javascript",
 				"json",

@@ -2,18 +2,24 @@
 return {
 	{
 		"nvim-telescope/telescope.nvim",
+		dependencies = {
+			"nvim-lua/plenary.nvim",
+			"BurntSushi/ripgrep",
+		},
 		keys = {
       -- add a keymap to browse plugin files
       -- stylua: ignore
       {
         "<leader>fp",
-        function() require("telescope.builtin").find_files({ cwd = require("lazy.core.config").options.root }) end,
+        function()
+          require("telescope.builtin").find_files({ cwd = require("lazy.core.config").options.root })
+        end,
         desc = "Find Plugin File",
       },
 			{
 				"<leader>fg",
 				function()
-					builtin.live_grep({ no_ignore = true })
+					require("telescope.builtin").live_grep({ no_ignore = true })
 				end,
 				desc = "Find with grep",
 			},
