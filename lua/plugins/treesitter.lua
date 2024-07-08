@@ -15,6 +15,10 @@ return {
 		opts = {
 			ensure_installed = {
 				"bash",
+				"go",
+				"gomod",
+				"gosum",
+				"gotmpl",
 				"helm",
 				"html",
 				"javascript",
@@ -25,6 +29,7 @@ return {
 				"python",
 				"query",
 				"regex",
+				"templ",
 				"tsx",
 				"typescript",
 				"vim",
