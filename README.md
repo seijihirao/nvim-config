@@ -9,7 +9,7 @@ This is my setup for nvim, using it as my main IDE for many projects.
  * Plugin Manager - [lazy.nvim](https://github.com/folke/lazy.nvim)
  * File Navigation
    * Fuzzy Finder - [fzf](https://github.com/junegunn/fzf)
-   * Fuzzy Finder - [telescope]([https://github.com/junegunn/fzf](https://github.com/nvim-telescope/telescope.nvim))
+   * Fuzzy Finder - [telescope](https://github.com/nvim-telescope/telescope.nvim)
    * File Tree - [neo-tree](https://github.com/nvim-neo-tree/neo-tree.nvim)
  * Window Navigation
    * Buffers - [bufferline](https://github.com/akinsho/bufferline.nvim)
