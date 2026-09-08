@@ -27,5 +27,10 @@ map("n", "<leader>f", vim.lsp.buf.format, { desc = "Formats file" })
 
 -- Reloads nvim file
 map("n", "<leader><leader>", function()
+  local ft = vim.bo.filetype
+  if ft ~= "lua" and ft ~= "vim" then
+    vim.notify("Not a lua/vim file", vim.log.levels.WARN)
+    return
+  end
   vim.cmd("so")
 end, { desc = "Reloads nvim file" })
