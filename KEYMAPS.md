@@ -34,7 +34,6 @@ Custom mappings live in `lua/core/remap.lua` and `lua/plugins/*.lua`; everything
 | `<leader>ca` | Code action |
 | `<leader>cr` | Rename symbol |
 | `<leader>cf` | Format (LazyVim) |
-| `<leader>f` | Format via LSP (custom, shadows the `<leader>f` group so which-key waits) |
 | `<leader>cs` | Symbol outline (Trouble) |
 | `<leader>cl` | LSP definitions / references panel (Trouble) |
 | `<leader>ss` | Search symbols in file |
