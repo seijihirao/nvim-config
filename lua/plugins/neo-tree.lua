@@ -16,7 +16,7 @@ return {
 			},
 		},
 		keys = {
-			{ "<leader>e", "<cmd>Neotree toggle float <cr>", desc = "explorer" },
+			{ "<leader>e", "<cmd>Neotree toggle left<cr>", desc = "explorer" },
 		},
 		config = function() -- If you want icons for diagnostic errors, you'll need to define them somewhere:
 			vim.fn.sign_define("DiagnosticSignError", { text = " ", texthl = "DiagnosticSignError" })
