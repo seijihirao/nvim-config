@@ -22,5 +22,3 @@ map("n", "N", "Nzzzv", { desc = "Previous search" })
 -- Diables Q default binding
 map("n", "Q", "<nop>")
 
--- Format file
-map("n", "<leader>f", vim.lsp.buf.format, { desc = "Formats file" })
