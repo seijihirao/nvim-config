@@ -18,7 +18,7 @@ Custom mappings live in `lua/core/remap.lua` and `lua/plugins/*.lua`; everything
 | `<leader>sg` | Grep project (respects .gitignore) |
 | `<leader>fg` | Grep project including ignored files (custom) |
 | `<leader>fp` | Find plugin source file (custom) |
-| `<leader>e` | File explorer (neo-tree, floating) |
+| `<leader>e` | File explorer (neo-tree, left sidebar) |
 
 ## LSP / IDE
 
