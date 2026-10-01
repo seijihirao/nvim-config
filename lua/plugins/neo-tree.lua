@@ -18,7 +18,8 @@ return {
 		keys = {
 			{ "<leader>e", "<cmd>Neotree toggle left<cr>", desc = "explorer" },
 		},
-		config = function() -- If you want icons for diagnostic errors, you'll need to define them somewhere:
+		config = function(_, opts) -- If you want icons for diagnostic errors, you'll need to define them somewhere:
+			require("neo-tree").setup(opts)
 			vim.fn.sign_define("DiagnosticSignError", { text = " ", texthl = "DiagnosticSignError" })
 			vim.fn.sign_define("DiagnosticSignWarn", { text = " ", texthl = "DiagnosticSignWarn" })
 			vim.fn.sign_define("DiagnosticSignInfo", { text = " ", texthl = "DiagnosticSignInfo" })
